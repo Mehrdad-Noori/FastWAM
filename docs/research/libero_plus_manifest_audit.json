@@ -1,0 +1,124 @@
+{
+  "category_counts": {
+    "Background Textures": 1076,
+    "Camera Viewpoints": 1599,
+    "Language Instructions": 1537,
+    "Light Conditions": 1142,
+    "Objects Layout": 1525,
+    "Robot Initial States": 1550,
+    "Sensor Noise": 1601
+  },
+  "paper_comparison": "https://arxiv.org/html/2510.13626v2",
+  "repository": "sylvestf/LIBERO-plus",
+  "revision": "4976dc30028e805ff8094b55501d532c48fec182",
+  "sources": {
+    "classification": {
+      "sha256": "faa87cce3e3ba434da01df7c77523a391b5f2912e4774330b0aa1be5f6a999e6",
+      "url": "https://raw.githubusercontent.com/sylvestf/LIBERO-plus/4976dc30028e805ff8094b55501d532c48fec182/libero/libero/benchmark/task_classification.json"
+    },
+    "task_map": {
+      "sha256": "41640d2f542169b400be7e94249e3b1f862e7500745dc318bab49b19576b31ac",
+      "url": "https://raw.githubusercontent.com/sylvestf/LIBERO-plus/4976dc30028e805ff8094b55501d532c48fec182/libero/libero/benchmark/libero_suite_task_map.py"
+    }
+  },
+  "suites": {
+    "libero_10": {
+      "all_names_match_task_map": true,
+      "benchmark_task_index_base": 0,
+      "category_counts": {
+        "Background Textures": 289,
+        "Camera Viewpoints": 419,
+        "Language Instructions": 383,
+        "Light Conditions": 274,
+        "Objects Layout": 312,
+        "Robot Initial States": 393,
+        "Sensor Noise": 449
+      },
+      "classification_id_base": 1,
+      "difference_from_paper": -73,
+      "difficulty_counts": {
+        "1": 357,
+        "2": 450,
+        "3": 484,
+        "4": 523,
+        "5": 705
+      },
+      "paper_v2_table7_count": 2592,
+      "released_count": 2519
+    },
+    "libero_goal": {
+      "all_names_match_task_map": true,
+      "benchmark_task_index_base": 0,
+      "category_counts": {
+        "Background Textures": 281,
+        "Camera Viewpoints": 408,
+        "Language Instructions": 410,
+        "Light Conditions": 279,
+        "Objects Layout": 425,
+        "Robot Initial States": 409,
+        "Sensor Noise": 379
+      },
+      "classification_id_base": 1,
+      "difference_from_paper": 22,
+      "difficulty_counts": {
+        "1": 397,
+        "2": 572,
+        "3": 473,
+        "4": 450,
+        "5": 578,
+        "unknown": 121
+      },
+      "paper_v2_table7_count": 2569,
+      "released_count": 2591
+    },
+    "libero_object": {
+      "all_names_match_task_map": true,
+      "benchmark_task_index_base": 0,
+      "category_counts": {
+        "Background Textures": 248,
+        "Camera Viewpoints": 396,
+        "Language Instructions": 354,
+        "Light Conditions": 297,
+        "Objects Layout": 403,
+        "Robot Initial States": 398,
+        "Sensor Noise": 422
+      },
+      "classification_id_base": 1,
+      "difference_from_paper": -58,
+      "difficulty_counts": {
+        "1": 410,
+        "2": 511,
+        "3": 507,
+        "4": 481,
+        "5": 609
+      },
+      "paper_v2_table7_count": 2576,
+      "released_count": 2518
+    },
+    "libero_spatial": {
+      "all_names_match_task_map": true,
+      "benchmark_task_index_base": 0,
+      "category_counts": {
+        "Background Textures": 258,
+        "Camera Viewpoints": 376,
+        "Language Instructions": 390,
+        "Light Conditions": 292,
+        "Objects Layout": 385,
+        "Robot Initial States": 350,
+        "Sensor Noise": 351
+      },
+      "classification_id_base": 1,
+      "difference_from_paper": 109,
+      "difficulty_counts": {
+        "1": 480,
+        "2": 669,
+        "3": 630,
+        "4": 432,
+        "5": 191
+      },
+      "paper_v2_table7_count": 2293,
+      "released_count": 2402
+    }
+  },
+  "total_variants": 10030
+}

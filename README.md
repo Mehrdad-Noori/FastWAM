@@ -13,6 +13,8 @@ Official codebase for **Fast-WAM: Do World Action Models Need Test-time Future I
 
 This repository contains the training and evaluation code for FastWAM on LIBERO / RoboTwin.
 
+Research notes in this fork: [LIBERO and LIBERO-Plus simulation, scoring, and reproducibility](docs/research/libero_simulation_evaluation.md), with a [faster iteration strategy and geometry WAM experiment plan](docs/research/simulation_iteration_plan.md).
+
 ## What's New
 
 FastWAM is now faster, better suited to large-scale datasets, and more flexible
